@@ -8,9 +8,9 @@ verify_ssl = true
 [packages]
 streamlit = "*"
 pandas = "*"
-fbprophet = "*"
+prophet = "*"
 chart-studio = "*"
 numpy = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.0"
