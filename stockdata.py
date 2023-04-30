@@ -12,8 +12,8 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Stock Forecast App')
 
-stocks = pdr.get_data_yahoo("TSLA")
-selected_stock = st.text_input('Enter Stock Ticker', stocks)
+stocks = ("GOOG","GOOGL","AAPL","TSLA")
+selected_stock = st.selectbox('Enter Stock Ticker', stocks)
 
 n_years = st.slider('Years of prediction:', 1, 4)
 period = n_years * 365
