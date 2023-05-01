@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import traceback2 as traceback
+import traceback
 from urllib.request import urlopen, Request
 
 
