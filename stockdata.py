@@ -12,7 +12,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Stock Forecast App')
 
-stocks = ("GOOG","GOOGL","AAPL","TSLA","BABA","BB","MSFT","MSI","NFLX","NOK","RACE","CROX","ORCL","DBX","HMX","WIT","WHR","V0D","SYY","TGI","TRVG","TM","ALK","SILC","RIVN","F","SONY","ASTC","CCEP","COKE","PEP","MNST","VVPR","UBER","CRSR","DELL","HPQ","LOGI","QUBT","GPRO","LPL","WMT","V","PYPL","KMDA","IH","MANU","RBLX","WBD","WWE","PARA","FWONA","NKE","CL","DLB","INFY","IBEX","ARGO","AXS","PINS","SPOT","TRVG","ZDGE","AMZN","EBAY","MAR","FOSL","K","SSMLF","MCD","SBUX","DPZ","INTC")
+stocks = ("GOOG","GOOGL","AAPL","TSLA","BABA","BB","MSFT","MSI","NFLX","NOK","RACE","CROX","ORCL","DBX","HMX","WIT","WHR","SYY","TGI","TRVG","TM","ALK","SILC","RIVN","F","SONY","ASTC","CCEP","COKE","PEP","MNST","VVPR","UBER","CRSR","DELL","HPQ","LOGI","QUBT","GPRO","LPL","WMT","V","PYPL","KMDA","IH","MANU","RBLX","WBD","WWE","PARA","FWONA","NKE","CL","DLB","INFY","IBEX","ARGO","AXS","PINS","SPOT","TRVG","ZDGE","AMZN","EBAY","MAR","FOSL","K","MCD","SBUX","DPZ","INTC")
 selected_stock = st.selectbox('Enter Stock Ticker', stocks)
 
 n_years = st.slider('Years of prediction:', 1, 4)
